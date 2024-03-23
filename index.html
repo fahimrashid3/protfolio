@@ -9,7 +9,8 @@
 
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
-
+<!-- font awesome link -->
+<script src="https://kit.fontawesome.com/3bdf4b4403.js" crossorigin="anonymous"></script>
 
 <!-- google lato font setup -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,22 +100,18 @@
                 </div>
               </div>
         </nav>
-        <div class="flex flex-row-reverse items-center ">
-
-            <div class="text-black flex-1">
-              <h3 class="font-bold text-3xl">Hi, I am</h3>  
-              <h1 class="font-black text-8xl py-5 text-color-primary-dark">SAJJAD HOSSAIN</h1>
-              <p class="font-medium">Shot what able cold new see hold. Griendly  as an 
-                betrayed formerly he.<br> Morning because as to society 
-                behaved moments.</p>
-                <div class="my-5 flex-1">
-                    <button class="btn bg-color-primary-dark"><i class="fa-solid fa-download"></i> Download CV</button>
-                <button class="btn bg-color-primary-dark"><i class="fa-solid fa-phone"></i> Contact</button>
-                </div>
+       
+        <div class="hero min-h-screen bg-base-200 flex">
+            <div class="hero-content flex-col lg:flex-row lg:flex-1">
+              <img src="profile img/sajjadPng.png" class="max-w-xl md:max-w-2xl lg:max-w-5xl rounded-lg" />
+              <div class="flex-1">
+                <h3 class="font-bold text-3xl">Hi, I am</h3>  
+                <h1 class="text-8xl font-bold">SAJJAD HOSSAIN</h1>
+                <p class="py-6">Backend developer.</p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
             </div>
-            <img class="h-[60rem]" src="profile img/sajjadPng.png" alt="" >
-    
-        </div>
+          </div>
 
     </header>
 
@@ -124,8 +121,28 @@
     </main>  
 
 
-    <footer>
-
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <aside>
+        <img class="w-40" src="logo/sajjadLogoNew.png" alt="">
+        <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
+      </aside> 
+      <nav>
+        <h6 class="footer-title">Social</h6> 
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <i class="fa-brands fa-x-twitter fa-fade fa-2xl"></i>
+          </a>
+          <a href="https://www.instagram.com/sajjad_hossain_0516/">
+            <i class="fa-brands fa-instagram fa-fade fa-2xl"></i>
+          </a>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCKCDlVVRMMPlLzGpzGjqWPdSttCRNDbwqrLRNWbRHzQqxNdvnnzHdDzJDfcbRZDvxsQWqLB">
+            <i class="fa-solid fa-envelope fa-fade fa-2xl"></i>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100011715071523">
+            <i class="fa-brands fa-facebook fa-fade fa-2xl"></i>
+          </a>
+        </div>
+      </nav>
     </footer>
 
 
